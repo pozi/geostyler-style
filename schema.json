@@ -21351,6 +21351,7 @@
                     "enum": [
                         "circle",
                         "cross",
+                        "diamond",
                         "shape://backslash",
                         "shape://carrow",
                         "shape://dot",
