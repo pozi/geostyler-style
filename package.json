@@ -16,7 +16,6 @@
     "test": "jest",
     "generate-schema": "typescript-json-schema tsconfig.json Style --id http://geostyler/geostyler-style.json > schema.json",
     "generate-docs": "typedoc index.ts",
-    "postinstall": "npm run build",
     "prepublishOnly": "npm run build && npm run generate-schema"
   },
   "devDependencies": {
