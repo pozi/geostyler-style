@@ -176,7 +176,7 @@ export type FontSpec = `ttf://${string}#0x${string}`;
  * https://github.com/microsoft/TypeScript/issues/6579
  *
  */
-export type WellKnownName = 'circle' | 'square' | 'triangle' | 'diamond' | 'star' | 'cross' | 'x'
+export type WellKnownName = 'circle' | 'square' | 'triangle' | 'star' | 'cross' | 'x'
 | 'shape://vertline' | 'shape://horline' | 'shape://slash'
 | 'shape://backslash' | 'shape://dot' | 'shape://plus'
 | 'shape://times' | 'shape://oarrow' | 'shape://carrow'
