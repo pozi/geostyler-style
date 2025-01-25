@@ -178,7 +178,7 @@ export type FontSpec = `ttf://${string}#0x${string}`;
  */
 export type WellKnownName = 'arrow' | 'arrowhead' | 'asterisk_fill' | 'circle' | 'cross' | 'cross2'
 | 'cross_fill' | 'decagon' | 'diagonal_half_square' | 'diamond' | 'equilateral_triangle'
-| 'filled_arrowhead' | 'half_arc' | 'half_square' | 'heart' | 'hexagon' | 'left_half_triangle'
+| 'filled_arrowhead' | 'half_arc' | 'half_square' | 'heart' | 'hexagon' | 'horline' | 'left_half_triangle'
 | 'line' | 'octagon' | 'parallelogram_left' | 'parallelogram_right' | 'pentagon' | 'quarter_arc'
 | 'quarter_circle' | 'quarter_square' | 'right_half_triangle' | 'rounded_square' | 'semi_circle'
 | 'shield' | 'square' | 'square_with_corners' | 'star' | 'star_diamond' | 'third_arc' | 'third_circle'
