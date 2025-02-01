@@ -94,7 +94,7 @@ export interface Fbetween extends FunctionCall<boolean> {
 export type FCaseParameter = {
     case: Expression<boolean>;
     value: Expression<PropertyType>;
-} | Expression<PropertyType>;
+};
 /**
  * Textual representation of a switch-case function.
  * argument[0] is the default value.
