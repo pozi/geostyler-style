@@ -121,7 +121,7 @@ export const isRasterSymbolizer = (got) => {
 };
 // Rule
 export const isRule = (got) => {
-    return !!(isString(got?.name) &&
+    return !!((isString(got?.name) || isNumber(got?.name)) &&
         (got?.filter ? isFilter(got.filter) : true) &&
         (got?.scaleDenominator ? isScaleDenominator(got.scaleDenominator) : true) &&
         got?.symbolizers?.every((arg) => isSymbolizer(arg)));
